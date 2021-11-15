@@ -1,0 +1,11 @@
+package exceptions;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Maths one = new Maths();
+		
+		one.doMaths(21, 56);
+	}
+	
+}

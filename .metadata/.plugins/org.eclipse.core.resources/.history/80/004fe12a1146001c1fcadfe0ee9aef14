@@ -1,0 +1,15 @@
+package exceptions;
+
+public class Maths {
+	
+	public int doMaths(int a, int b) throws TwentyOneException {
+		
+		if (a == 9 && b == 10) {
+			TwentyOneException toe = new TwentyOneException();
+			throw toe;
+		}
+		
+		return a + b;
+	}
+
+}

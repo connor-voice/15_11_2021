@@ -1,0 +1,8 @@
+package exceptions;
+
+public class Maths {
+	
+	public void doMaths(int a, int b) {
+	}
+
+}

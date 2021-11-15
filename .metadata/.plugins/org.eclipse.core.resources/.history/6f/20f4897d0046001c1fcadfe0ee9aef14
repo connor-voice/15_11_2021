@@ -1,0 +1,11 @@
+package animals;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Penguin pingu = new Penguin();
+		
+		pingu.doSound("hello yes I am a penguin");
+	}
+	
+}

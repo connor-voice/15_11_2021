@@ -1,0 +1,21 @@
+package animals;
+
+public class Cat extends Animal implements Pet {
+
+	private int purrLoudness;
+	private boolean pushesStuff;      
+	
+	
+	public void knockOffEdge() {
+		System.out.println("I'm a cat... of course I knock stuff from shelves");
+	}
+	
+	public void stareContent() {
+		System.out.println("I'm watching you...");
+	}
+	
+	public void pet() {
+		System.out.println("I am a small fluffy household pet cat");
+	}
+	
+}

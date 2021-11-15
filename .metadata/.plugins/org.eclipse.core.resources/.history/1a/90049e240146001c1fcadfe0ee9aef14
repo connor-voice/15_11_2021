@@ -1,0 +1,30 @@
+package animals;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Penguin pingu = new Penguin();
+		Cat lily = new Cat();
+		Dog molly = new Dog();
+		Bird willis = new Bird();
+		
+		
+		
+		pingu.doSound("hello yes I am a penguin");
+		pingu.doFishing();
+		pingu.doThing("I have happy feet");
+		pingu.eggSit();
+		
+		lily.doSound("purr");
+		lily.doThing("I laid around");
+		lily.knockOffEdge();
+		
+		molly.barkAtDoor();
+		molly.doSound("Woof Woof");
+		molly.doThing("I chased my tail");
+		
+		willis.doSound("kra kraaa");
+	}
+	
+}

@@ -1,0 +1,17 @@
+package animals;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		Penguin pingu = new Penguin();
+		Cat lily = new Cat();
+		Dog molly = new Dog();
+		Bird willis = new Bird();
+		
+		
+		
+		pingu.doSound("hello yes I am a penguin");
+	}
+	
+}

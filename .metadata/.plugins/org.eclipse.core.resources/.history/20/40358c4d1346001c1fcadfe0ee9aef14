@@ -1,0 +1,12 @@
+package exceptions;
+
+public class DumbException extends Exception {
+
+	public void exceptionNoZero() {
+		System.out.println("You can't divide by zero");
+	}
+	
+	public void exceptionItself() {
+		
+	}
+}

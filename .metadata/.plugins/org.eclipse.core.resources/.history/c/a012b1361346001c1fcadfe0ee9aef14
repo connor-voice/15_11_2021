@@ -1,0 +1,12 @@
+package exceptions;
+
+public class DumbException extends Exception {
+
+	public void exceptionOne() {
+		
+	}
+	
+	public void exceptionTwo() {
+		
+	}
+}

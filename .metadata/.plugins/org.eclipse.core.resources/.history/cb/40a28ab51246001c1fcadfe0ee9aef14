@@ -1,0 +1,15 @@
+package exceptions;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Maths one = new Maths();
+
+		try {
+			one.doMaths(11, 12);
+		} catch(TwentyOneException toe) {
+			toe.showException();
+		}
+
+	}
+}

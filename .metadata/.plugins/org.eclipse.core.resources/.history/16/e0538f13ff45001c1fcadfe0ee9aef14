@@ -1,0 +1,12 @@
+package animals;
+
+public class Bird extends Animal {
+
+	private String colours;
+	private boolean repeatPhrases;
+	
+	public void whistleInShower() {
+		System.out.println("*whistling to don't worry be happy*");
+	}
+	
+}

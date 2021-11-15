@@ -1,0 +1,16 @@
+package exceptions;
+
+public class Maths {
+	
+	public void doMaths(int a, int b) throws TwentyOneException {
+		
+		if (a == 9 && b == 10) {
+			TwentyOneException toe = new TwentyOneException();
+			throw toe;
+		}
+		
+		int answer = a + b;
+		System.out.println("The sum of your two numbers is: " + );
+	}
+
+}
